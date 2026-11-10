@@ -1,0 +1,23 @@
+{
+  "repository": "Fully-Powered-AI/procurement-capability-templates",
+  "title": "Procurement and Suppliers",
+  "term": "functions/procurement-and-suppliers",
+  "capabilities": [
+    {
+      "id": "vendor-quote-comparison",
+      "name": "Vendor quote comparison",
+      "version": "0.1.0",
+      "summary": "Before anyone signs, the person choosing a vendor gets one sheet: the criteria agreed first, every quote costed the same way, and each vendor eliminated with its reason, on hold with the question that settles it, or shortlisted with its trade-offs. A person chooses; contract terms go to your reviewer.",
+      "path": "vendor-quote-comparison/",
+      "directory": "https://fullypowered.ai/capabilities/vendor-quote-comparison/"
+    },
+    {
+      "id": "vendor-renewal-review",
+      "name": "Vendor renewal review",
+      "version": "0.1.0",
+      "summary": "Before a supplier's notice date, the operations lead takes one page to the decision: the dates counted from the ones you supply, how much of what you pay for is used, what it has cost and what renewal would cost, how the supplier has performed, and the questions to ask. Nothing is sent or cancelled.",
+      "path": "vendor-renewal-review/",
+      "directory": "https://fullypowered.ai/capabilities/vendor-renewal-review/"
+    }
+  ]
+}

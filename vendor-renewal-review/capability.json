@@ -1,0 +1,66 @@
+{
+  "id": "vendor-renewal-review",
+  "name": "Vendor renewal review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before a supplier's notice date, the operations lead takes one page to the decision: the dates counted from the ones you supply, how much of what you pay for is used, what it has cost and what renewal would cost, how the supplier has performed, and the questions to ask. Nothing is sent or cancelled.",
+  "directory": "https://fullypowered.ai/capabilities/vendor-renewal-review/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/manufacturing",
+    "industries/logistics-and-trade"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "supplier-bill-review-and-payment-run-preparation",
+    "budget-versus-actual-variance-commentary",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The one-page form of the review, the date arithmetic from dates the person supplies, the paid-for-against-used count from a use export, the invoice and credit checks, and the rule that the agreement is never read or interpreted, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "anthropics/knowledge-work-plugins",
+      "commit": "02ffa99ff00ce4d3046ccebabb8357cb39f3ab06",
+      "path": "operations/skills/vendor-review",
+      "licence": "Apache-2.0",
+      "contribution": "Reviewing a renewal through cost, performance and risk together; counting extra charges and the costs of leaving alongside the subscription price; comparing the renewal price with what is paid now; and closing with points to raise with the supplier.",
+      "text_reused": false,
+      "notice": "notices/anthropics-knowledge-work-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/vendor-management",
+      "licence": "MIT",
+      "contribution": "Checking a supplier against its stated service commitments, comparing recent misses with older ones, flagging service credits that a person still has to claim, grading how far the business depends on the supplier and whether a written fallback plan exists, and treating the review as preparation for a person's decision.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    }
+  ]
+}

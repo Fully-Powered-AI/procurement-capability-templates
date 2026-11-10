@@ -1,0 +1,66 @@
+{
+  "id": "vendor-quote-comparison",
+  "name": "Vendor quote comparison",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before anyone signs, the person choosing a vendor gets one sheet: the criteria agreed first, every quote costed the same way, and each vendor eliminated with its reason, on hold with the question that settles it, or shortlisted with its trade-offs. A person chooses; contract terms go to your reviewer.",
+  "directory": "https://fullypowered.ai/capabilities/vendor-quote-comparison/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers"
+  ],
+  "industries": [
+    "industries/professional-services",
+    "industries/construction",
+    "industries/manufacturing",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/established-businesses"
+  ],
+  "related": [
+    "supplier-bill-review-and-payment-run-preparation",
+    "budget-versus-actual-variance-commentary",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The three rounds of elimination with one standing and one reason per vendor, the on-hold rule for a quote silent on a must-have, the recorded change of criteria, contract terms quoted for a reviewer without interpretation, and the rule that a person chooses, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "GTMify/aigtm",
+      "commit": "1cb992d7589f85b8ffa07f13f2c60f2028ba39b4",
+      "path": "skills/vendor-evaluation",
+      "licence": "MIT",
+      "contribution": "Opening with the purchase itself, the reason for it, the money available and how long the business will be tied in; total cost over the commitment rather than the first price; evidence from the quote behind every judgment; calling out quotes that are not like for like and unanswered questions; promises outside the written quote not counted; renewal and exit terms drawn out; and not buying now as a legitimate outcome.",
+      "text_reused": false,
+      "notice": "notices/GTMify-aigtm-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "glebis/claude-skills",
+      "commit": "3b8826108af86135b90f6b264934ccbfaa48f205",
+      "path": "elimination-research",
+      "licence": "MIT",
+      "contribution": "Criteria and the lines that rule an option out settled before options are assessed; options over a budget ceiling removed from the decision but kept visible; recurring costs counted over a fixed period; setting aside an option another matches or beats on every measure at no higher cost; and gaps and caveats kept on the record.",
+      "text_reused": false,
+      "notice": "notices/glebis-claude-skills-LICENSE.txt"
+    }
+  ]
+}
