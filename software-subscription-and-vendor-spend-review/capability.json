@@ -1,0 +1,66 @@
+{
+  "id": "software-subscription-and-vendor-spend-review",
+  "name": "Software subscription and vendor spend review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "From a card statement or ledger export, the finance or operations lead gets every subscription on one register: what each costs a year, who owns it, what renews in the next 90 days, what looks unused, duplicated or orphaned, and the decisions to make. Nothing is cancelled or changed.",
+  "directory": "https://fullypowered.ai/capabilities/software-subscription-and-vendor-spend-review/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/software-technology",
+    "industries/professional-services",
+    "industries/marketing-and-advertising"
+  ],
+  "situations": [
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "vendor-renewal-review",
+    "vendor-quote-comparison",
+    "budget-versus-actual-variance-commentary"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-09",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-09",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Reading a card or ledger export with stated headers, the rules for classing monthly, annual, irregular and one-off charges, the annual cost and renewal date with their stated basis, the flags for a double charge and for charges that stopped, the saving range that names no tool to keep, the questions and decisions, and the rule that nothing is cancelled, changed or paid, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "LeadMagic/gtm-skills",
+      "commit": "2b7ec0f9e7044f46e4c77b536f486303fd863e28",
+      "path": "skills/gtm-ops/gtm-spend-management",
+      "licence": "MIT",
+      "contribution": "One register of paid tools with an owner, a renewal date and seats paid against seats in use; a regular review of it for tools with no owner, tools whose owner has left the company, overlapping tools and renewals coming up; and treating tools paid on a personal card or an expense claim as hidden spend to bring to light.",
+      "text_reused": false,
+      "notice": "notices/LeadMagic-gtm-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "alirezarezvani/claude-skills",
+      "commit": "19392f7a08264ed00486a251f5b2098321771f94",
+      "path": "business-operations/skills/procurement-optimizer",
+      "licence": "MIT",
+      "contribution": "Classing spend by the kind of thing bought, whatever the supplier is called, weighing consolidation of same-job tools against the cost of switching, holding back consolidation of a critical tool until a written fallback exists, and spotting months where several renewals land together.",
+      "text_reused": false,
+      "notice": "notices/alirezarezvani-claude-skills-LICENSE.txt"
+    }
+  ]
+}

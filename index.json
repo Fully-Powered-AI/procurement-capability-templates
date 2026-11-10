@@ -4,6 +4,14 @@
   "term": "functions/procurement-and-suppliers",
   "capabilities": [
     {
+      "id": "software-subscription-and-vendor-spend-review",
+      "name": "Software subscription and vendor spend review",
+      "version": "0.1.0",
+      "summary": "From a card statement or ledger export, the finance or operations lead gets every subscription on one register: what each costs a year, who owns it, what renews in the next 90 days, what looks unused, duplicated or orphaned, and the decisions to make. Nothing is cancelled or changed.",
+      "path": "software-subscription-and-vendor-spend-review/",
+      "directory": "https://fullypowered.ai/capabilities/software-subscription-and-vendor-spend-review/"
+    },
+    {
       "id": "vendor-quote-comparison",
       "name": "Vendor quote comparison",
       "version": "0.1.0",
