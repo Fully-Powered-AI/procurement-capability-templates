@@ -1,0 +1,78 @@
+{
+  "id": "supplier-risk-alert-brief",
+  "name": "Supplier risk alert brief",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When something happens to a supplier you depend on, the buyer gets a dated brief the same day: what happened and who reported it when, what you buy from them, how many days of stock you hold against how long another source would take, how exposed you are, and actions with owners and dates.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-risk-alert-brief/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/consumer-brands",
+    "industries/ecommerce-and-retail",
+    "industries/construction"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-issue-notice",
+    "inventory-reorder-plan",
+    "supplier-spend-analysis"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The graded and numbered sources, the stock cover and gap worked from the item export with stated column headers, the four exposure ratings and the overall rule, the supplier's promise shown apart from the rating, working-day deadlines, questions in place of any message, the stop when dealing with a supplier is barred, and the rule that a person decides every contact and every switch, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/supplier-risk/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A brief prompted by an event at a supplier already in use; the kinds of trouble to watch for, from money and operations to regulators, sanctions, country and the supplier's own suppliers; a missing figure shown as not assessed; spend kept apart from dependence; no rating eased on the supplier's word; estimates marked; closing actions with owners and deadlines; and a next review brought forward by fresh news.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/supplier-risk/evals/evals.json",
+      "licence": "Apache-2.0",
+      "contribution": "Weighing the days of stock left against the time needed to approve another source, and taking a supplier's account of its own remaining stock as its word only.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/supplier-risk/trigger_eval_set.json",
+      "licence": "Apache-2.0",
+      "contribution": "Among its sample requests, a fire at a sole-source supplier's plant reported in the news, the kind of event the invented example uses.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    }
+  ]
+}

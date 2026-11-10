@@ -1,0 +1,159 @@
+{
+  "id": "contractor-safety-prequalification",
+  "name": "Contractor safety prequalification",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "For a named job, the operations, facilities or site manager gets a safety questionnaire scaled to the risk of the work, then a record of the contractor's answers scored only on the evidence supplied, with every gap, the conditions that close it and a review date. A competent person decides.",
+  "directory": "https://fullypowered.ai/capabilities/contractor-safety-prequalification/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/health-safety-and-environment",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/real-estate"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "vendor-quote-comparison",
+    "workplace-risk-assessment",
+    "incident-investigation-and-corrective-actions"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Fully Powered AI's own rules for this work: Met, Partly met and Gap with what each means; must-pass questions and stop findings kept as company settings, with a mechanical outcome rule and a blank decision line for the competent person; insurance set against the company's minimums, like with like; trade competence scored apart from the certification for each dangerous activity; the people list with stated column headers; claims not counted, quoted; checks only a person can make, listed apart; points the rules cannot settle; owners and dates taken only from the brief and settings; the review date counted from the job's last day; and no law or standard cited."
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A questionnaire to send and a scored record of the answers; three tiers of questions set by the most dangerous task in the job; scoring only what the documents show, so an unsupported answer is a gap; dangerous work never passed on protective equipment or experience alone; approve, conditional or reject, decided by a competent person; people in incident records reduced to labels.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/references/intake.md",
+      "licence": "Apache-2.0",
+      "contribution": "Naming the contractor, the job and the site before anything is scored; insurance, the safety record and trade competence as the documents needed before any outcome; who else could be affected; new approval or renewal; the decision maker and the review period; examples of low- and medium-risk work for the tiers.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/references/QUALITY_CHECKLIST.md",
+      "licence": "Apache-2.0",
+      "contribution": "A check before anything is returned: every score tied to evidence, no approval over an open gap, dangerous work not passed on protective equipment or competence claims, the tier set by the riskiest activity, a review date set, people hurt in incidents not named, and the real contractor, job and site named rather than a generic questionnaire.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/references/deid-checklist.md",
+      "licence": "Apache-2.0",
+      "contribution": "Personal details found and named before anything else is written, people replaced by stable labels, and the originals kept apart from the record.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/references/METHODOLOGY.md",
+      "licence": "Apache-2.0",
+      "contribution": "A core question set for every contractor, more for skilled trades and an added set for dangerous activities, each with the document that answers it; the claim, the evidence and its status kept for each item; rejection when a point fails beyond repair, such as no insurance; a review timed by whichever document expires first, or by a fixed period; on renewal, expired documents counted as gaps again.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/references/sme-review.md",
+      "licence": "Apache-2.0",
+      "contribution": "A stated scoring rule and a named decision maker, so two reviewers reach the same result; subcontracting and supervision of the crew as questions that are easy to leave out.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/evals/evals.json",
+      "licence": "Apache-2.0",
+      "contribution": "The hard cases of a certificate claimed but not supplied, one contractor on a low-risk and a high-risk job, and an injured worker named in the records, used here as acceptance tests in new scenarios.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/evals/output/contractor-prequalification.md",
+      "licence": "Apache-2.0",
+      "contribution": "A worked case in which work at height and an unproven certificate lead to a conditional outcome; work held until the conditions close; certificates checked with the body that issued them; a review at the first expiry or after twelve months, whichever comes first.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/evals/files/contractor-prequalification-gutted.md",
+      "licence": "Apache-2.0",
+      "contribution": "A questionnaire that opens with directions to the contractor and closes with a signed declaration, with questions on rescue plans, permits, inspection of access equipment and controls put in place ahead of protective equipment.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/evals/output/contractor-prequalification-remediated.md",
+      "licence": "Apache-2.0",
+      "contribution": "A return date for the contractor's answers and a fresh look at the questions when the scope of the job changes, both named as things a questionnaire should carry; first aid on site among the questions a company may add.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "ashley-eyekyam/hse-leadership-skills",
+      "commit": "2ffb2ca3287cf0954549fe00be9a127b5355eb94",
+      "path": "skills/contractor-prequalification/assets/contractor-prequalification-report.template.json",
+      "licence": "Apache-2.0",
+      "contribution": "The order of the record: the job and its tier, the questions with the evidence each needs, the register of what was supplied, the gaps, the outcome with its conditions, and sign-off.",
+      "text_reused": false,
+      "notice": "notices/ashley-eyekyam-hse-leadership-skills-LICENSE.txt"
+    }
+  ]
+}

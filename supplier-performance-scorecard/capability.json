@@ -1,0 +1,67 @@
+{
+  "id": "supplier-performance-scorecard",
+  "name": "Supplier performance scorecard",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Once a quarter, the buyer or operations lead scores each key supplier from the business's own order and receiving exports: on-time delivery, fill rate, defects and returns, price against agreed terms and order confirmations, with the trend, the evidence behind every score and the points to raise. A person decides.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-performance-scorecard/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/ecommerce-and-retail",
+    "industries/consumer-brands"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-issue-notice",
+    "vendor-renewal-review",
+    "supplier-spend-analysis"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Stated export headers with a stop when one does not match, price against the business's own agreed-price list with the amount above it, a minimum number of lines before a measure is judged, every miss listed as evidence, the comparison with last quarter with a band for level, targets met counted instead of a blended score, points to raise, trigger-based decision questions, and the rule that nothing is sent and no tier or record is changed, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "finsilabs/awesome-ecommerce-skills",
+      "commit": "30a1fb674e41284e738608c059690c251699eb07",
+      "path": "skills/business-operations/vendor-management/SKILL.md",
+      "licence": "MIT",
+      "contribution": "A supplier review every quarter; punctuality, completeness and damage worked out from order and receiving records, each with a target; deliveries in parts followed line by line; order confirmations tracked; the gap between an order's due date and the day stock was truly wanted; and the figures taken to the supplier.",
+      "text_reused": false,
+      "notice": "notices/finsilabs-awesome-ecommerce-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/vendor-assessment/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "Whether the business could manage without a supplier kept apart from the size of the bill, so an irreplaceable supplier with a small bill still gets full attention; a figure slipping quarter on quarter raised before it crosses its target; and leaving a supplier kept off the table until a replacement is ready.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    }
+  ]
+}

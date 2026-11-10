@@ -1,0 +1,69 @@
+{
+  "id": "business-insurance-renewal-review",
+  "name": "Business insurance renewal review",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "Before the business insurance renews, the owner gets one pack: every policy with insurer, limits, deductibles, premium and dates; renewal terms beside expiring ones, every change marked; what changed in the business; claims; and questions for the broker. The broker and the owner decide all cover.",
+  "directory": "https://fullypowered.ai/capabilities/business-insurance-renewal-review/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/finance-and-accounting",
+    "functions/compliance-risk-and-privacy"
+  ],
+  "industries": [
+    "industries/construction",
+    "industries/manufacturing",
+    "industries/logistics-and-trade",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "vendor-renewal-review",
+    "vendor-quote-comparison",
+    "workplace-risk-assessment"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The renewal pack's form, the item-by-item marking of every change between the expiring schedules and the renewal terms, the dates counted from the renewal date, the questions for the broker that each rest on a fact, and the rules that no policy wording is interpreted and no cover recommended, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "CaseMark/skills",
+      "commit": "afe48c44914d753297766404378e871d1f88d7a8",
+      "path": "skills/finance/managing-insurance-programs/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "A single list of every policy before renewal; the business's revenue, payroll, vehicles and sites weighed against what is insured; the amounts of cover customer contracts call for; claims totalled by type of cover and squared with the business's own records; each figure checked against the current documents.",
+      "text_reused": false,
+      "notice": "notices/CaseMark-skills-LICENSE.txt"
+    },
+    {
+      "kind": "third-party",
+      "repository": "LeadMagic/gtm-skills",
+      "commit": "2b7ec0f9e7044f46e4c77b536f486303fd863e28",
+      "path": "skills/founder-led/business-insurance/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Customers who want a named amount of cover and to be named on the policy; keeping what the insurer is told about the business up to date; reading a policy's exclusions alongside its cost; a fresh look at cover as the business grows.",
+      "text_reused": false,
+      "notice": "notices/LeadMagic-gtm-skills-LICENSE.txt"
+    }
+  ]
+}
