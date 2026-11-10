@@ -1,0 +1,58 @@
+{
+  "id": "category-sourcing-plan",
+  "name": "Category sourcing plan",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "For the buyer or operations lead who owns one spend category, such as packaging or IT hardware: its spend and suppliers on one page, where it sits on a supply-risk and spend matrix, the value levers the evidence supports, and a dated sourcing plan. A person chooses the approach.",
+  "directory": "https://fullypowered.ai/capabilities/category-sourcing-plan/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/operations-and-process-improvement"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/consumer-brands",
+    "industries/ecommerce-and-retail",
+    "industries/professional-services"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "vendor-quote-comparison",
+    "vendor-renewal-review",
+    "pilot-acceptance-test-preparation"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The spend checks against the export, the five supply-risk factors rated against stated limits, items that sit apart handled as exceptions, the indicative price gap from prices the company itself paid, options that always include keeping the current arrangement, the dates given to each of the six steps, with supplier dates flagged against them, and the rule that a person chooses and agreements go to a reviewer uninterpreted, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/strategic-sourcing/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Starting from the category's spend, including its share of total spend and its top three suppliers' concentration, its suppliers and stakeholders; the supply-risk against spend-impact matrix with a usual direction for each position; value levers grouped into price, demand and specification, supplier base, total cost and supplier collaboration; agreeing the starting prices before any sourcing and keeping price movements apart from changes in how much is bought; anticipating resistance to a change of supplier or specification; and the usual order of sourcing steps (finding new suppliers, quotes and negotiation, a decision with contract review, moving orders, checking results).",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}

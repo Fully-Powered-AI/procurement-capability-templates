@@ -4,12 +4,36 @@
   "term": "functions/procurement-and-suppliers",
   "capabilities": [
     {
+      "id": "category-sourcing-plan",
+      "name": "Category sourcing plan",
+      "version": "0.1.0",
+      "summary": "For the buyer or operations lead who owns one spend category, such as packaging or IT hardware: its spend and suppliers on one page, where it sits on a supply-risk and spend matrix, the value levers the evidence supports, and a dated sourcing plan. A person chooses the approach.",
+      "path": "category-sourcing-plan/",
+      "directory": "https://fullypowered.ai/capabilities/category-sourcing-plan/"
+    },
+    {
       "id": "software-subscription-and-vendor-spend-review",
       "name": "Software subscription and vendor spend review",
       "version": "0.1.0",
       "summary": "From a card statement or ledger export, the finance or operations lead gets every subscription on one register: what each costs a year, who owns it, what renews in the next 90 days, what looks unused, duplicated or orphaned, and the decisions to make. Nothing is cancelled or changed.",
       "path": "software-subscription-and-vendor-spend-review/",
       "directory": "https://fullypowered.ai/capabilities/software-subscription-and-vendor-spend-review/"
+    },
+    {
+      "id": "supplier-issue-notice",
+      "name": "Supplier issue notice",
+      "version": "0.1.0",
+      "summary": "When a supplier bills for more than was ordered or received, or falls short of an agreed delivery or quality target, the buyer gets a formal notice ready for approval: each problem set against the record, the evidence listed, what the supplier must do and the date to reply by. A person approves and sends it.",
+      "path": "supplier-issue-notice/",
+      "directory": "https://fullypowered.ai/capabilities/supplier-issue-notice/"
+    },
+    {
+      "id": "supplier-spend-analysis",
+      "name": "Supplier spend analysis",
+      "version": "0.1.0",
+      "summary": "From one accounts-payable export, the finance or operations lead sees where the money goes: spend cleaned and grouped by category and supplier, the few suppliers that take most of it, the tail, needs bought from several suppliers and consolidation opportunities, each with its figures. A person decides what to act on.",
+      "path": "supplier-spend-analysis/",
+      "directory": "https://fullypowered.ai/capabilities/supplier-spend-analysis/"
     },
     {
       "id": "vendor-quote-comparison",

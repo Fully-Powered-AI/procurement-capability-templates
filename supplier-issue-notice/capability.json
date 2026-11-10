@@ -1,0 +1,59 @@
+{
+  "id": "supplier-issue-notice",
+  "name": "Supplier issue notice",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "When a supplier bills for more than was ordered or received, or falls short of an agreed delivery or quality target, the buyer gets a formal notice ready for approval: each problem set against the record, the evidence listed, what the supplier must do and the date to reply by. A person approves and sends it.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-issue-notice/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/finance-and-accounting",
+    "functions/supply-chain-and-inventory"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/construction",
+    "industries/hospitality",
+    "industries/ecommerce-and-retail"
+  ],
+  "situations": [
+    "situations/established-businesses",
+    "situations/growth-and-scaling"
+  ],
+  "related": [
+    "supplier-bill-review-and-payment-run-preparation",
+    "vendor-quote-comparison",
+    "vendor-renewal-review"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "The working of every figure from the invoice, the order and the receipts, the tolerance and the list of items not raised, the tie-out against the accepted lines, the reply date in working days, the approver's cover sheet, the recalculated delivery and quality rates with the stop when a target is met, and the refusal of breach claims, penalties and contract notices, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "panaversity/agentfactory-business-plugins",
+      "commit": "4497a99e149ffe2447eeaeed1d7706cd91c2edfb",
+      "path": "supply-chain/skills/vendor-communication/SKILL.md",
+      "licence": "Apache-2.0",
+      "contribution": "The invoice dispute that sets each discrepancy against the order or the goods received with its amount and basis, an action and a reply date, keeping the undisputed amount apart; the corrective-action request that sets a period's measured result against the agreed target and asks for a plan covering cause, protection of current orders, fixes with dates and monitoring, with an optional review call; the factual tone without blame; sign-off by kind of notice; and confirming a bank-details change by phone on a known number.",
+      "text_reused": false,
+      "notice": "notices/panaversity-agentfactory-business-plugins-LICENSE.txt"
+    }
+  ]
+}

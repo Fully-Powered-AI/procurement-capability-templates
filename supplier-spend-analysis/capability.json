@@ -1,0 +1,58 @@
+{
+  "id": "supplier-spend-analysis",
+  "name": "Supplier spend analysis",
+  "kind": "capability-template",
+  "version": "0.1.0",
+  "summary": "From one accounts-payable export, the finance or operations lead sees where the money goes: spend cleaned and grouped by category and supplier, the few suppliers that take most of it, the tail, needs bought from several suppliers and consolidation opportunities, each with its figures. A person decides what to act on.",
+  "directory": "https://fullypowered.ai/capabilities/supplier-spend-analysis/",
+  "primary_function": "functions/procurement-and-suppliers",
+  "functions": [
+    "functions/procurement-and-suppliers",
+    "functions/finance-and-accounting"
+  ],
+  "industries": [
+    "industries/manufacturing",
+    "industries/construction",
+    "industries/hospitality"
+  ],
+  "situations": [
+    "situations/growth-and-scaling",
+    "situations/acquisitions-and-integration",
+    "situations/private-equity-and-portfolios"
+  ],
+  "related": [
+    "software-subscription-and-vendor-spend-review",
+    "supplier-bill-review-and-payment-run-preparation",
+    "vendor-quote-comparison"
+  ],
+  "evidence": {
+    "written_by": "Fully Powered AI",
+    "source_and_rights_reviewed": true,
+    "editorially_reviewed": "2026-11-10",
+    "package_format_valid": true,
+    "tested_environments": [],
+    "tried_on_example": [
+      {
+        "product": "Claude",
+        "date": "2026-11-10",
+        "record": "public/trial.md"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "kind": "own",
+      "title": "Reading one accounts-payable export with stated headers, the accounts left out, the listed name merges and look-alike names kept apart, the stop on a bill exported twice, credit notes netted, the concentration group and tail, the consolidation floor, the saving shown only from the person's own assumption, the questions and decisions, and the rule that nothing is sent, paid, changed or agreed, written for this template."
+    },
+    {
+      "kind": "third-party",
+      "repository": "kishorkukreja/awesome-supply-chain",
+      "commit": "397d95172e374225574f1fb580c1a77376fff836",
+      "path": "skills/spend-analysis/SKILL.md",
+      "licence": "MIT",
+      "contribution": "Looking at spend by what is bought and by supplier; tidying supplier names that differ only in case, spacing or a legal ending; a supplier-to-category list with unclassified spend shown; ranking suppliers by running share against an 80% line; supplier count, largest share and small-supplier spend per category as signs a category could use fewer suppliers; and a possible saving sized as category spend times an expected percentage.",
+      "text_reused": false,
+      "notice": "notices/kishorkukreja-awesome-supply-chain-LICENSE.txt"
+    }
+  ]
+}
