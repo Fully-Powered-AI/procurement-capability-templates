@@ -1,6 +1,6 @@
 # Supplier performance scorecard: an invented example
 
-*Illustrative example with invented data.* The company, the suppliers, the people, the orders, the dates and the amounts below are all invented. The company is an invented 40-person maker of scented candles that sells online and through gift shops, called Brand R here. Its suppliers are called Supplier A to Supplier F. Its operations lead is scoring the key suppliers for the third quarter of 2026 before the quarterly supplier reviews. First come the inputs the operations lead supplied, in full, then the scorecard the capability returned.
+*Illustrative example with invented data.* The company, the suppliers, the people, the orders, the dates and the amounts below are all invented. The company is an invented 40-person maker of scented candles that sells online and through gift shops, called Brand R here. Its suppliers are called Supplier A to Supplier F. Its operations lead is scoring the key suppliers for the third quarter of 2026 before the quarterly supplier reviews. First come the inputs the operations lead supplied, in full, then the scorecard the workflow template returned.
 
 ## The inputs
 

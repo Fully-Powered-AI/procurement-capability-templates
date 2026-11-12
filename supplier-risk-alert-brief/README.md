@@ -2,11 +2,11 @@
 
 When something happens to a supplier you depend on, the buyer gets a dated brief the same day: what happened and who reported it when, what you buy from them, how many days of stock you hold against how long another source would take, how exposed you are, and actions with owners and dates.
 
-*Capability template · Procurement and suppliers · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/supplier-risk-alert-brief/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/)*
 
 ## The outcome
 
-Bad news about a supplier arrives in pieces: a headline, a short email from the account manager, something a colleague heard on a call. This capability turns those pieces into one page the procurement lead can act on.
+Bad news about a supplier arrives in pieces: a headline, a short email from the account manager, something a colleague heard on a call. This workflow template turns those pieces into one page the procurement lead can act on.
 
 Every fact on the page says where it came from and how firm it is: confirmed by the supplier in writing or an official record, reported in the press, or only heard. Promises the supplier makes about restarting or shipping are shown as promises. Nothing is added that the sources do not say, so nobody walks into a meeting repeating a rumour as fact.
 
@@ -64,14 +64,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - **Your deadlines and review intervals** for each rating.
 - **Your export's column headers,** and how your team marks an estimate.
 - **How you count the time to another source:** whether it includes approving a new supplier, samples or tooling.
-- **Who answers questions about your supply agreements,** and who clears any report that dealing with a supplier is barred. The capability leaves both to them.
+- **Who answers questions about your supply agreements,** and who clears any report that dealing with a supplier is barred. The workflow template leaves both to them.
 - **Your platform.** It runs in ChatGPT, Claude, Copilot or Gemini. Decide which reports and exports the assistant may read.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template in its own words, drawing on a published supplier risk method credited with it. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs; the record of the second, made on the current wording, is published with it. That record says plainly that the second run was made by the model that revised the template after the first, so it was not blind to the published example. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template in its own words, drawing on a published supplier risk method credited with it. It was editorially reviewed on 10 November 2026. It was tried on its invented example in Claude on 10 November 2026 in two runs; the record of the second, made on the current wording, is published with it. That record says plainly that the second run was made by the model that revised the template after the first, so it was not blind to the published example. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past supplier scares your team remembers, with hard cases written in advance: a news report the supplier never confirmed, a supplier's promise that later slipped, an item with no known time to another source, an export whose headers do not match, a problem at the supplier's own supplier. The procurement lead checks every figure and date against the export before anyone acts on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past supplier scares your team remembers, with hard cases written in advance: a news report the supplier never confirmed, a supplier's promise that later slipped, an item with no known time to another source, an export whose headers do not match, a problem at the supplier's own supplier. The procurement lead checks every figure and date against the export before anyone acts on the brief. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -82,11 +82,11 @@ Testing in your environment means running it on two or three past supplier scare
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -96,12 +96,12 @@ Testing in your environment means running it on two or three past supplier scare
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Supplier issue notice](../supplier-issue-notice/)
-- [Inventory reorder plan](https://fullypowered.ai/capabilities/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
 - [Supplier spend analysis](../supplier-spend-analysis/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

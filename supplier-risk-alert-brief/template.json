@@ -1,10 +1,10 @@
 {
   "id": "supplier-risk-alert-brief",
   "name": "Supplier risk alert brief",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When something happens to a supplier you depend on, the buyer gets a dated brief the same day: what happened and who reported it when, what you buy from them, how many days of stock you hold against how long another source would take, how exposed you are, and actions with owners and dates.",
-  "directory": "https://fullypowered.ai/capabilities/supplier-risk-alert-brief/",
+  "directory": "https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

@@ -1,6 +1,6 @@
 # Contractor safety prequalification
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -13,8 +13,8 @@ Use it when a contractor is being brought in for a named job at a named site wit
 Do not use it:
 
 - for a contractor with no named job. "Approve them for general work" cannot be tiered; the person names a job first;
-- to compare prices or choose between contractors on cost. That is the vendor quote comparison capability;
-- to assess the risks of the job itself at your site. That is the workplace risk assessment capability, which the competent person may ask for alongside;
+- to compare prices or choose between contractors on cost. That is the vendor quote comparison workflow template;
+- to assess the risks of the job itself at your site. That is the workplace risk assessment workflow template, which the competent person may ask for alongside;
 - to say what the law requires of your company when it brings in contractors, whether the company would be liable for an accident, or whether an insurance policy would pay a claim. Those questions go to [your adviser];
 - to write or review contract terms, indemnities or insurance clauses. Those go to [your adviser].
 

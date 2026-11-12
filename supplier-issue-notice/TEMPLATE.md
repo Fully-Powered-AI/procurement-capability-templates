@@ -1,6 +1,6 @@
 # Supplier issue notice
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -8,7 +8,7 @@ Draft one formal notice to a supplier about one problem, ready for a person to a
 
 ## When to use it and when not to
 
-Use it when an invoice has been held because it does not agree with its order or with what arrived, or when a supplier's on-time delivery or rejection rate for a whole period has fallen below the target it agreed. It often follows a payment-run review that found the exception; this capability raises it with the supplier.
+Use it when an invoice has been held because it does not agree with its order or with what arrived, or when a supplier's on-time delivery or rejection rate for a whole period has fallen below the target it agreed. It often follows a payment-run review that found the exception; this workflow template raises it with the supplier.
 
 Do not use it:
 

@@ -2,7 +2,7 @@
 
 When a supplier bills for more than was ordered or received, or falls short of an agreed delivery or quality target, the buyer gets a formal notice ready for approval: each problem set against the record, the evidence listed, what the supplier must do and the date to reply by. A person approves and sends it.
 
-*Capability template · Procurement and suppliers · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/supplier-issue-notice/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-issue-notice/)*
 
 ## The outcome
 
@@ -10,11 +10,11 @@ A supplier problem is raised once, properly, in writing. In place of a quick ema
 
 Every figure is worked out again from your documents before a word is written, so the notice holds up when the supplier's accounts team checks it. The part of the invoice nobody disputes is stated plainly, so the supplier knows what will be paid and the relationship keeps working while the rest is sorted out.
 
-The tone is calm and factual: no blame, no threats, no claims about what the contract means. The notice comes with a short cover sheet for the person who approves it, listing the checks made, anything deliberately left out, and anything that must stop before sending, such as an invoice asking for payment to a new bank account. The capability drafts; a person approves the notice and a person sends it.
+The tone is calm and factual: no blame, no threats, no claims about what the contract means. The notice comes with a short cover sheet for the person who approves it, listing the checks made, anything deliberately left out, and anything that must stop before sending, such as an invoice asking for payment to a new bank account. The workflow template drafts; a person approves the notice and a person sends it.
 
 ## Who starts the work, and when
 
-The buyer, the purchasing lead or the accounts-payable lead starts it when an invoice has been held for a difference against its order or its delivery, often straight from the exceptions that [supplier bill review and payment-run preparation](https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/) finds. It is also started at the end of a month or quarter when a supplier's on-time delivery or rejection rate has fallen below the target it agreed.
+The buyer, the purchasing lead or the accounts-payable lead starts it when an invoice has been held for a difference against its order or its delivery, often straight from the exceptions that [supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/) finds. It is also started at the end of a month or quarter when a supplier's on-time delivery or rejection rate has fallen below the target it agreed.
 
 Whoever your rules name approves the notice before it goes: often the purchasing manager for an invoice dispute, and the head of purchasing or operations for a corrective-action request.
 
@@ -60,14 +60,14 @@ See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 - **Your price tolerance.** Whether small price differences are raised at all, and where the line sits.
 - **The undisputed amount.** Whether it is paid when due while the rest is settled, or held.
 - **Your house style.** The sign-off, the contact details and any standard closing line.
-- **Your contract reviewer.** Who answers questions about contract terms, notices that end or change a supply relationship, and any claim for compensation. This capability leaves all of those to them.
+- **Your contract reviewer.** Who answers questions about contract terms, notices that end or change a supply relationship, and any claim for compensation. This workflow template leaves all of those to them.
 - **Your platform.** It runs in ChatGPT, Claude, Copilot or Gemini. Decide which documents and exports the assistant may read.
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it, and lists the small edits made afterward that have not been run again. Only the invoice-dispute path was exercised: the corrective-action path, the stop conditions and the refusals were not tried. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026; the record is published with it, and lists the small edits made afterward that have not been run again. Only the invoice-dispute path was exercised: the corrective-action path, the stop conditions and the refusals were not tried. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on two or three past supplier problems your team remembers, with hard cases written in advance: a line both priced above the order and short-delivered, a charge that is not on the order, an export whose headers do not match, a supplier whose result in fact met its target, an invoice asking for payment to new bank details. The person who approves checks every figure against the documents before anything is sent. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on two or three past supplier problems your team remembers, with hard cases written in advance: a line both priced above the order and short-delivered, a charge that is not on the order, an export whose headers do not match, a supplier whose result in fact met its target, an invoice asking for payment to new bank details. The person who approves checks every figure against the documents before anything is sent. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -78,11 +78,11 @@ Testing in your environment means running it on two or three past supplier probl
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -92,12 +92,12 @@ Testing in your environment means running it on two or three past supplier probl
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
 - [Vendor renewal review](../vendor-renewal-review/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).

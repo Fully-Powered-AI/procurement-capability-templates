@@ -1,6 +1,6 @@
 # Supplier risk alert brief
 
-Capability template, version 0.1.0.
+Workflow template, version 0.1.0.
 
 ## Purpose
 
@@ -271,4 +271,4 @@ return the draft.
 
 ## Version notes
 
-- 0.1.0, 10 November 2026. Written by Fully Powered AI. Editorially reviewed. Tried on its invented example in Claude on 10 November 2026 in two runs. The first, by a model that had not written the template, found places where it left a choice open; after an independent review the template then said which sub-suppliers wording applies when the event is at the supplier itself, that the brief reader owns the decision about questions to the supplier, which items get the production-plan and confirm-an-estimate actions, the margin's default in the pasted instructions, that an estimate's mark is repeated wherever the figure is, and that source lines keep the time of day. The second run, made on this version by the model that revised it and not blind to the example, is the one recorded with the capability. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+- 0.1.0, 10 November 2026. Written by Fully Powered AI. Editorially reviewed. Tried on its invented example in Claude on 10 November 2026 in two runs. The first, by a model that had not written the template, found places where it left a choice open; after an independent review the template then said which sub-suppliers wording applies when the event is at the supplier itself, that the brief reader owns the decision about questions to the supplier, which items get the production-plan and confirm-an-estimate actions, the margin's default in the pasted instructions, that an estimate's mark is repeated wherever the figure is, and that source lines keep the time of day. The second run, made on this version by the model that revised it and not blind to the example, is the one recorded with the workflow template. Not yet tested in a client environment, and not yet tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.

@@ -1,10 +1,10 @@
 {
   "id": "vendor-renewal-review",
   "name": "Vendor renewal review",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before a supplier's notice date, the operations lead takes one page to the decision: the dates counted from the ones you supply, how much of what you pay for is used, what it has cost and what renewal would cost, how the supplier has performed, and the questions to ask. Nothing is sent or cancelled.",
-  "directory": "https://fullypowered.ai/capabilities/vendor-renewal-review/",
+  "directory": "https://fullypowered.ai/workflow templates/vendor-renewal-review/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

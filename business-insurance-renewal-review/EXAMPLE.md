@@ -1,6 +1,6 @@
 # Business insurance renewal review: an invented example
 
-*Illustrative example with invented data.* The business, the broker, the insurers, the customers, the people, the policy numbers, the dates and the amounts below are all invented. The business is an invented 46-person building-maintenance contractor, called Business C here, with its own vans. Its operations lead is preparing for the renewal of its insurance through an invented broker, Broker B, with invented insurers called Insurer K, Insurer M and Insurer N. First come the inputs the operations lead supplied, in full, then the pack the capability returned.
+*Illustrative example with invented data.* The business, the broker, the insurers, the customers, the people, the policy numbers, the dates and the amounts below are all invented. The business is an invented 46-person building-maintenance contractor, called Business C here, with its own vans. Its operations lead is preparing for the renewal of its insurance through an invented broker, Broker B, with invented insurers called Insurer K, Insurer M and Insurer N. First come the inputs the operations lead supplied, in full, then the pack the workflow template returned.
 
 ## The inputs
 

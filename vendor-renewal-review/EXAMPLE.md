@@ -1,6 +1,6 @@
 # Vendor renewal review: an invented example
 
-*Illustrative example with invented data.* The company, the supplier, the people, the dates and the amounts below are all invented. The company is an invented 85-person regional delivery business. Its operations lead is reviewing the renewal of its dispatch software, from an invented supplier called Supplier D here. First come the inputs the operations lead supplied, in full, then the page the capability returned.
+*Illustrative example with invented data.* The company, the supplier, the people, the dates and the amounts below are all invented. The company is an invented 85-person regional delivery business. Its operations lead is reviewing the renewal of its dispatch software, from an invented supplier called Supplier D here. First come the inputs the operations lead supplied, in full, then the page the workflow template returned.
 
 ## The inputs
 

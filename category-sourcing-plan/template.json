@@ -1,10 +1,10 @@
 {
   "id": "category-sourcing-plan",
   "name": "Category sourcing plan",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For the buyer or operations lead who owns one spend category, such as packaging or IT hardware: its spend and suppliers on one page, where it sits on a supply-risk and spend matrix, the value levers the evidence supports, and a dated sourcing plan. A person chooses the approach.",
-  "directory": "https://fullypowered.ai/capabilities/category-sourcing-plan/",
+  "directory": "https://fullypowered.ai/workflow templates/category-sourcing-plan/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

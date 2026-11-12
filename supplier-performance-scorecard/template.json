@@ -1,10 +1,10 @@
 {
   "id": "supplier-performance-scorecard",
   "name": "Supplier performance scorecard",
-  "kind": "capability-template",
+  "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Once a quarter, the buyer or operations lead scores each key supplier from the business's own order and receiving exports: on-time delivery, fill rate, defects and returns, price against agreed terms and order confirmations, with the trend, the evidence behind every score and the points to raise. A person decides.",
-  "directory": "https://fullypowered.ai/capabilities/supplier-performance-scorecard/",
+  "directory": "https://fullypowered.ai/workflow templates/supplier-performance-scorecard/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

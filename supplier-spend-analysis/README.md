@@ -2,7 +2,7 @@
 
 From one accounts-payable export, the finance or operations lead sees where the money goes: spend cleaned and grouped by category and supplier, the few suppliers that take most of it, the tail, needs bought from several suppliers and consolidation opportunities, each with its figures. A person decides what to act on.
 
-*Capability template · Procurement and suppliers · version 0.1.0 · [Capabilities Directory](https://fullypowered.ai/capabilities/supplier-spend-analysis/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-spend-analysis/)*
 
 ## The outcome
 
@@ -40,7 +40,7 @@ One analysis, in a fixed order:
 10. **Decisions** for whoever leads the business.
 11. **What was not supplied or checked,** starting with the plain statement that no contract or price list was read.
 
-Every figure can be checked against the export with a calculator. An opportunity that needs a closer look can go on to a [vendor quote comparison](https://fullypowered.ai/capabilities/vendor-quote-comparison/).
+Every figure can be checked against the export with a calculator. An opportunity that needs a closer look can go on to a [vendor quote comparison](https://fullypowered.ai/workflows/vendor-quote-comparison/).
 
 See the worked example with invented data in [EXAMPLE.md](EXAMPLE.md).
 
@@ -61,9 +61,9 @@ Map the column headers of your accounting system's export, and decide whether yo
 
 ## What has been checked
 
-Fully Powered AI wrote this capability template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
+Fully Powered AI wrote this workflow template. It was editorially reviewed on 10 November 2026. It was tried once on its invented example in Claude on 10 November 2026, and the record of that run is published with the template; it lists the small edits made afterward that have not been run again. It has not yet been tested in a client environment. It has not yet been tested as a packaged version in ChatGPT, Claude, Copilot or Gemini.
 
-Testing in your environment means running it on a past period your finance lead knows well, with hard cases written in advance: an export whose headers do not match, one bill exported twice, a supplier spelled three ways, two names that look alike but are different businesses, a credit note larger than the bills it offsets, and a category that sits just under the floor. The runner checks every figure against the export before anyone relies on the analysis. [Pilot acceptance-test preparation](https://fullypowered.ai/capabilities/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
+Testing in your environment means running it on a past period your finance lead knows well, with hard cases written in advance: an export whose headers do not match, one bill exported twice, a supplier spelled three ways, two names that look alike but are different businesses, a credit note larger than the bills it offsets, and a category that sits just under the floor. The runner checks every figure against the export before anyone relies on the analysis. [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/) sets those cases up, and [what we test before we call an AI workflow ready](https://fullypowered.ai/insights/what-we-test-before-a-workflow-is-ready/) describes the record we keep.
 
 - Written by Fully Powered AI.
 - Sources and rights reviewed.
@@ -74,11 +74,11 @@ Testing in your environment means running it on a past period your finance lead 
 
 ## What is in this folder
 
-- [TEMPLATE.md](TEMPLATE.md): the complete capability template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
+- [TEMPLATE.md](TEMPLATE.md): the complete workflow template. Roles, inputs, the procedure, exceptions and stop conditions, the output format, a reviewer checklist, acceptance tests, the instructions for an AI assistant and what to customize.
 - [EXAMPLE.md](EXAMPLE.md): a worked example with invented data.
 - [TRIAL.md](TRIAL.md): what came out when the template was tried on its example.
 - [SKILL.md](SKILL.md): the technical file, for AI products that load packaged instructions from a folder.
-- [SOURCES.md](SOURCES.md): what the capability drew on, with licences.
+- [SOURCES.md](SOURCES.md): what the workflow template drew on, with licences.
 - [LICENSE](LICENSE): MIT. Use it, change it, make it yours.
 
 ## Start using it
@@ -88,12 +88,12 @@ Testing in your environment means running it on a past period your finance lead 
 3. Give your AI assistant the instruction block and the output format from the template, with your own limits in place of the ones the instructions leave open in square brackets. Paste them in as custom instructions in ChatGPT, Claude, Copilot or Gemini, or copy this whole folder into a product that loads `SKILL.md` packages. This folder stands alone; you do not need the rest of the repository.
 4. Run it on past work first, using the reviewer checklist and acceptance tests in the template, before anyone relies on it.
 
-## Related capabilities
+## Related workflow templates
 
 - [Software subscription and vendor spend review](../software-subscription-and-vendor-spend-review/)
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/capabilities/supplier-bill-review-and-payment-run-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
 
 ## Make it yours
 
-This is the starting version. Fully Powered AI adapts capabilities to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
+This is the starting version. Fully Powered AI adapts workflow templates to how your company works, proves them on real work and rolls them out to the roles that use them. [Talk with us](https://fullypowered.ai/contact/).
