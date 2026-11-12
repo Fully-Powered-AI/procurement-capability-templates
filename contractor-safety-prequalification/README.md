@@ -2,7 +2,7 @@
 
 For a named job, the operations, facilities or site manager gets a safety questionnaire scaled to the risk of the work, then a record of the contractor's answers scored only on the evidence supplied, with every gap, the conditions that close it and a review date. A competent person decides.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/contractor-safety-prequalification/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/contractor-safety-prequalification/)*
 
 ## The outcome
 
@@ -100,8 +100,8 @@ Testing in your environment means running it on two or three contractors your co
 ## Related workflow templates
 
 - [Vendor quote comparison](../vendor-quote-comparison/)
-- [Workplace risk assessment](https://fullypowered.ai/workflow templates/workplace-risk-assessment/)
-- [Incident investigation and corrective actions](https://fullypowered.ai/workflow templates/incident-investigation-and-corrective-actions/)
+- [Workplace risk assessment](https://fullypowered.ai/workflows/workplace-risk-assessment/)
+- [Incident investigation and corrective actions](https://fullypowered.ai/workflows/incident-investigation-and-corrective-actions/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 From one accounts-payable export, the finance or operations lead sees where the money goes: spend cleaned and grouped by category and supplier, the few suppliers that take most of it, the tail, needs bought from several suppliers and consolidation opportunities, each with its figures. A person decides what to act on.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-spend-analysis/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-spend-analysis/)*
 
 ## The outcome
 
@@ -91,7 +91,7 @@ Testing in your environment means running it on a past period your finance lead 
 ## Related workflow templates
 
 - [Software subscription and vendor spend review](../software-subscription-and-vendor-spend-review/)
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
 
 ## Make it yours

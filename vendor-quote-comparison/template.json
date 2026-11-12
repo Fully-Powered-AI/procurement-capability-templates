@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before anyone signs, the person choosing a vendor gets one sheet: the criteria agreed first, every quote costed the same way, and each vendor eliminated with its reason, on hold with the question that settles it, or shortlisted with its trade-offs. A person chooses; contract terms go to your reviewer.",
-  "directory": "https://fullypowered.ai/workflow templates/vendor-quote-comparison/",
+  "directory": "https://fullypowered.ai/workflows/vendor-quote-comparison/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers"

@@ -2,7 +2,7 @@
 
 Before a supplier's notice date, the operations lead takes one page to the decision: the dates counted from the ones you supply, how much of what you pay for is used, what it has cost and what renewal would cost, how the supplier has performed, and the questions to ask. Nothing is sent or cancelled.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/vendor-renewal-review/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/vendor-renewal-review/)*
 
 ## The outcome
 
@@ -88,9 +88,9 @@ Testing in your environment means running it on two or three past renewals your 
 
 ## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

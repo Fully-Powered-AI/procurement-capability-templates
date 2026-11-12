@@ -2,7 +2,7 @@
 
 When a supplier bills for more than was ordered or received, or falls short of an agreed delivery or quality target, the buyer gets a formal notice ready for approval: each problem set against the record, the evidence listed, what the supplier must do and the date to reply by. A person approves and sends it.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-issue-notice/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-issue-notice/)*
 
 ## The outcome
 
@@ -94,7 +94,7 @@ Testing in your environment means running it on two or three past supplier probl
 
 ## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
 - [Vendor renewal review](../vendor-renewal-review/)
 

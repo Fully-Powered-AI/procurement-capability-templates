@@ -2,7 +2,7 @@
 
 Once a quarter, the buyer or operations lead scores each key supplier from the business's own order and receiving exports: on-time delivery, fill rate, defects and returns, price against agreed terms and order confirmations, with the trend, the evidence behind every score and the points to raise. A person decides.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-performance-scorecard/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-performance-scorecard/)*
 
 ## The outcome
 

@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "For a named job, the operations, facilities or site manager gets a safety questionnaire scaled to the risk of the work, then a record of the contractor's answers scored only on the evidence supplied, with every gap, the conditions that close it and a review date. A competent person decides.",
-  "directory": "https://fullypowered.ai/workflow templates/contractor-safety-prequalification/",
+  "directory": "https://fullypowered.ai/workflows/contractor-safety-prequalification/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

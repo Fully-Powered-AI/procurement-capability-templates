@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "When a supplier bills for more than was ordered or received, or falls short of an agreed delivery or quality target, the buyer gets a formal notice ready for approval: each problem set against the record, the evidence listed, what the supplier must do and the date to reply by. A person approves and sends it.",
-  "directory": "https://fullypowered.ai/workflow templates/supplier-issue-notice/",
+  "directory": "https://fullypowered.ai/workflows/supplier-issue-notice/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

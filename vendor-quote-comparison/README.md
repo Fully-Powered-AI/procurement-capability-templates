@@ -2,7 +2,7 @@
 
 Before anyone signs, the person choosing a vendor gets one sheet: the criteria agreed first, every quote costed the same way, and each vendor eliminated with its reason, on hold with the question that settles it, or shortlisted with its trade-offs. A person chooses; contract terms go to your reviewer.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/vendor-quote-comparison/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/vendor-quote-comparison/)*
 
 ## The outcome
 
@@ -93,9 +93,9 @@ Testing in your environment means running it on two or three past purchases your
 
 ## Related workflow templates
 
-- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflow templates/supplier-bill-review-and-payment-run-preparation/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Supplier bill review and payment-run preparation](https://fullypowered.ai/workflows/supplier-bill-review-and-payment-run-preparation/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

@@ -2,7 +2,7 @@
 
 When something happens to a supplier you depend on, the buyer gets a dated brief the same day: what happened and who reported it when, what you buy from them, how many days of stock you hold against how long another source would take, how exposed you are, and actions with owners and dates.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/supplier-risk-alert-brief/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/supplier-risk-alert-brief/)*
 
 ## The outcome
 
@@ -99,7 +99,7 @@ Testing in your environment means running it on two or three past supplier scare
 ## Related workflow templates
 
 - [Supplier issue notice](../supplier-issue-notice/)
-- [Inventory reorder plan](https://fullypowered.ai/workflow templates/inventory-reorder-plan/)
+- [Inventory reorder plan](https://fullypowered.ai/workflows/inventory-reorder-plan/)
 - [Supplier spend analysis](../supplier-spend-analysis/)
 
 ## Make it yours

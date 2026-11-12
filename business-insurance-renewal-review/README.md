@@ -2,7 +2,7 @@
 
 Before the business insurance renews, the owner gets one pack: every policy with insurer, limits, deductibles, premium and dates; renewal terms beside expiring ones, every change marked; what changed in the business; claims; and questions for the broker. The broker and the owner decide all cover.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/business-insurance-renewal-review/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/business-insurance-renewal-review/)*
 
 ## The outcome
 
@@ -94,7 +94,7 @@ Testing in your environment means running it on last year's renewal, which your 
 
 - [Vendor renewal review](../vendor-renewal-review/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
-- [Workplace risk assessment](https://fullypowered.ai/workflow templates/workplace-risk-assessment/)
+- [Workplace risk assessment](https://fullypowered.ai/workflows/workplace-risk-assessment/)
 
 ## Make it yours
 

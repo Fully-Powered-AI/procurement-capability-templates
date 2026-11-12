@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "From one accounts-payable export, the finance or operations lead sees where the money goes: spend cleaned and grouped by category and supplier, the few suppliers that take most of it, the tail, needs bought from several suppliers and consolidation opportunities, each with its figures. A person decides what to act on.",
-  "directory": "https://fullypowered.ai/workflow templates/supplier-spend-analysis/",
+  "directory": "https://fullypowered.ai/workflows/supplier-spend-analysis/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

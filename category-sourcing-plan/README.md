@@ -2,7 +2,7 @@
 
 For the buyer or operations lead who owns one spend category, such as packaging or IT hardware: its spend and suppliers on one page, where it sits on a supply-risk and spend matrix, the value levers the evidence supports, and a dated sourcing plan. A person chooses the approach.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/category-sourcing-plan/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/category-sourcing-plan/)*
 
 ## The outcome
 
@@ -100,7 +100,7 @@ Testing in your environment means running it on one or two categories your buyer
 
 - [Vendor quote comparison](../vendor-quote-comparison/)
 - [Vendor renewal review](../vendor-renewal-review/)
-- [Pilot acceptance-test preparation](https://fullypowered.ai/workflow templates/pilot-acceptance-test-preparation/)
+- [Pilot acceptance-test preparation](https://fullypowered.ai/workflows/pilot-acceptance-test-preparation/)
 
 ## Make it yours
 

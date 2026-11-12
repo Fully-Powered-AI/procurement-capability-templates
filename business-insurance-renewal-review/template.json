@@ -4,7 +4,7 @@
   "kind": "workflow-template",
   "version": "0.1.0",
   "summary": "Before the business insurance renews, the owner gets one pack: every policy with insurer, limits, deductibles, premium and dates; renewal terms beside expiring ones, every change marked; what changed in the business; claims; and questions for the broker. The broker and the owner decide all cover.",
-  "directory": "https://fullypowered.ai/workflow templates/business-insurance-renewal-review/",
+  "directory": "https://fullypowered.ai/workflows/business-insurance-renewal-review/",
   "primary_function": "functions/procurement-and-suppliers",
   "functions": [
     "functions/procurement-and-suppliers",

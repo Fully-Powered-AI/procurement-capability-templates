@@ -2,7 +2,7 @@
 
 From a card statement or ledger export, the finance or operations lead gets every subscription on one register: what each costs a year, who owns it, what renews in the next 90 days, what looks unused, duplicated or orphaned, and the decisions to make. Nothing is cancelled or changed.
 
-*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflow templates/software-subscription-and-vendor-spend-review/)*
+*Workflow template · Procurement and suppliers · version 0.1.0 · [Workflows Directory](https://fullypowered.ai/workflows/software-subscription-and-vendor-spend-review/)*
 
 ## The outcome
 
@@ -90,7 +90,7 @@ Testing in your environment means running it on a past quarter your finance lead
 
 - [Vendor renewal review](../vendor-renewal-review/)
 - [Vendor quote comparison](../vendor-quote-comparison/)
-- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflow templates/budget-versus-actual-variance-commentary/)
+- [Budget-versus-actual variance commentary](https://fullypowered.ai/workflows/budget-versus-actual-variance-commentary/)
 
 ## Make it yours
 
